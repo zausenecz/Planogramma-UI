@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024">
+    <title>Planogramma-UI</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div id="page-hero">
+        <div id="header">
+            <center>Planogramma-UI V alfa-beta-test-huest 1.0</center>
+        </div>
+        <div id="columns">
+
+            <div id="column1" class="hero-column">
+
+
+                <div class="rnd-block">
+                    <div class="block__header">Отделы</div>
+                    <div class="block__text">
+                        <div class="sections__item">Сральня</div>
+                        <div class="sections__item">Кушальня</div>
+                        <div class="sections__item">Отдыхальня</div>
+                        <div class="sections__item">Сральня</div>
+                        <div class="sections__item">Кушальня</div>
+                        <div class="sections__item">Отдыхальня</div>
+                        <div class="sections__item">Сральня</div>
+                        <div class="sections__item">Кушальня</div>
+                        <div class="sections__item">Отдыхальня</div>
+                    </div>
+                </div>
+                <div id="tasks" class="rnd-block">
+                    <div class="block__header">Задания</div>
+                    <div class="block__text">
+                        <div class="list">
+                            <div>Посрать</div>
+                            <div>Поесть</div>
+                            <div>Поспать</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div id="column2" class="hero-column">
+
+
+                <div class="shelf" data-columns="6">
+                    <div class="shelf-name">Стеллаж A</div>
+                    <div class="shelf-cells">
+                        <div onclick="CellChanger(A1, 'A1')">A1</div>
+                        <div onclick="CellChanger(A2, 'A2')">A2</div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+
+                <div class="shelf" data-columns="6">
+                    <div class="shelf-name">Стеллаж B</div>
+                    <div class="shelf-cells">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div id="column3" class="hero-column">
+                <div class="rnd-block">
+
+                    <div id="cell-info__wrapper">
+                        <div class="block__header" id="cell-header">Сектор A1</div>
+                        <div class="block__text" id="cell-info">
+
+                            <span>Полка 1</span>
+                            <div class="shelf__item">Сральня</div>
+                            <div class="shelf__item">Кушальня</div>
+                            <div class="shelf__item">Отдыхальня</div>
+
+                            <span>Полка 2</span>
+                            <div class="shelf__item">Сральня</div>
+                            <div class="shelf__item">Кушальня</div>
+                            <div class="shelf__item">Отдыхальня</div>
+
+                            <span>Полка 3</span>
+                            <div class="shelf__item">Сральня</div>
+                            <div class="shelf__item">Кушальня</div>
+                            <div class="shelf__item">Отдыхальня</div>
+
+                            <span>Полка 4</span>
+                            <div class="shelf__item">Сральня</div>
+                            <div class="shelf__item">Кушальня</div>
+                            <div class="shelf__item">Отдыхальня</div>
+
+                            <span>Полка 5</span>
+                            <div class="shelf__item">Сральня</div>
+                            <div class="shelf__item">Кушальня</div>
+                            <div class="shelf__item">Отдыхальня</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
